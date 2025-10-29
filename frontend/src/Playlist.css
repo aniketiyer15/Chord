@@ -1,0 +1,204 @@
+/* Container */
+.pv-container,
+.pl-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Messages */
+.pv-message,
+.pl-message {
+  padding: 0.75rem 1rem;
+  background: #e0f7fa;
+  border: 1px solid #81d4fa;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* Breadcrumb */
+.pv-breadcrumb {
+  margin-bottom: 1rem;
+}
+.pv-breadcrumb a {
+  text-decoration: none;
+  color: #1db954;
+}
+.pv-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+.pv-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.pv-title {
+  font-size: 2rem;
+  margin: 0;
+}
+.pv-edit-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.pv-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.pv-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pv-btn-edit {
+  background: #0070f3;
+  color: #fff;
+}
+.pv-btn-edit:hover {
+  background: #005bb5;
+}
+.pv-btn-save {
+  background: #28a745;
+  color: #fff;
+}
+.pv-btn-save:hover {
+  background: #1e7e34;
+}
+.pv-btn-cancel {
+  background: #6c757d;
+  color: #fff;
+}
+.pv-btn-cancel:hover {
+  background: #5a6268;
+}
+.pv-btn-delete {
+  background: #e0245e;
+  color: #fff;
+  margin-left: 1rem;
+}
+.pv-btn-delete:hover {
+  background: #c81e50;
+}
+
+/* Stats */
+.pv-stats {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+/* Song list */
+.pv-subheader {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.pv-empty {
+  font-style: italic;
+  color: #666;
+}
+.pv-song-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pv-song-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+.pv-song-item:last-child {
+  border-bottom: none;
+}
+.pv-btn-delete-small {
+  padding: 0.25rem 0.5rem;
+  background: #e0245e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+.pv-btn-delete-small:hover {
+  background: #c81e50;
+}
+
+/* Playlist list */
+.pl-title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+.pl-search {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.pl-empty {
+  font-style: italic;
+  color: #666;
+}
+.pl-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pl-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+.pl-item:last-child {
+  border-bottom: none;
+}
+.pl-link {
+  color: #0070f3;
+  text-decoration: none;
+}
+.pl-link:hover {
+  text-decoration: underline;
+}
+
+.pl-hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.pl-create {
+  margin-top: 1rem;
+}
+.pl-subtitle {
+  margin-bottom: 0.5rem;
+}
+.pl-create-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.pl-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.pl-btn {
+  padding: 0.5rem 1rem;
+  background: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pl-btn:hover {
+  background: #005bb5;
+}

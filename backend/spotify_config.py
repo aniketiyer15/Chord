@@ -1,0 +1,3 @@
+# spotify_config.py
+CLIENT_ID = "9199188ab0ec4776a920196190b43efb"
+CLIENT_SECRET = "79cc4ff12d9e4806ad1de5f7004a9457"
